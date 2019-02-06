@@ -22,7 +22,7 @@ require('./AEMForm.css');
 
 const AEMFormEditConfig = {
 
-    emptyLabel: 'AEMForm',
+    emptyLabel: 'AEM Form for SPA',
 
     isEmpty: function(props) {
         return !props || !props.formPath || props.formPath.trim().length < 1;
